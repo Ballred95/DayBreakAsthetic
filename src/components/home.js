@@ -1,12 +1,12 @@
 import React from 'react' 
 import {Navbar, Form, FormControl, Button, Nav } from 'react-bootstrap';
-import Logo from './ima'
+import Logo from "./images/logo.png"
 
 export default function (props) {
     return (
     <div className=''>
          <Navbar bg="light" variant="light">
-    <Navbar.Brand href="#home"><img src={Logo}></img></Navbar.Brand>
+    <Navbar.Brand href="#home"><img src={Logo} style={{width: '500px'}}></img></Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#features">About</Nav.Link>
