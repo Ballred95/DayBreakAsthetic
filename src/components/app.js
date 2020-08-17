@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Home from './home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default class App extends Component {
